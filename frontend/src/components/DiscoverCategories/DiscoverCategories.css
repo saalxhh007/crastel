@@ -1,0 +1,86 @@
+.discover-categories {
+    text-align: center;
+    padding: 60px;
+    margin-top: 60px;
+    background: linear-gradient(#1B2C22,#013392);
+  }
+  
+  .discover-categories h2 {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .discover-categories-cart {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .discover-categorie-list {
+    width: 30%;
+    text-align: center;
+    background-color: #5790AB;
+  }
+  
+  .discover-img-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .discover-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+  }
+  
+  
+  .discover-categorie-list p {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .discover-categorie-list button {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #9CCDDB;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .discover-categorie-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 768px) {
+    .discover-categorie-list {
+      width: 45%; /* Adjust width for tablet screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .discover-categories-cart {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .discover-categorie-list {
+      width: 80%; /* Adjust width for mobile screens */
+      margin-bottom: 20px; /* Add space between stacked categories */
+    }
+  
+    .discover-categorie-list p {
+      font-size: 1.2rem; /* Adjust font size for mobile screens */
+    }
+  }
+  

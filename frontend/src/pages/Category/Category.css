@@ -1,0 +1,33 @@
+.category {
+    padding: 20px;
+  }
+  
+  .category h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .category-container {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  
+  @media (max-width: 1200px) {
+    .category-container .product {
+      flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .category-container .product {
+      flex: 1 1 calc(50% - 20px); /* Two items per row */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .category-container .product {
+      flex: 1 1 100%; /* One item per row */
+    }
+  }

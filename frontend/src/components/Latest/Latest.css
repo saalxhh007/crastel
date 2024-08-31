@@ -1,0 +1,16 @@
+.latest{
+    margin-top: 60px;
+}
+.latest h2{
+    font-size: 42px;
+    color: #072D44;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px
+}
+.latest-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

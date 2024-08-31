@@ -1,0 +1,27 @@
+.details{
+    margin-top: 60px;
+}
+.details-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.details-content .col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border-right: 1px solid #000 ;
+}
+.details-content .col:last-child{
+    border-right: none;
+}
+.details-content .col img{
+    width: 50px;
+}
+.details-content .col p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
