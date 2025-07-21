@@ -5,7 +5,7 @@ import {
   productList,
   productsSellers,
   removeProduct,
-} from "./../controllers/productController.js";
+} from "../controllers/productController.js";
 const productRouter = express.Router();
 
 const storage = multer.diskStorage({
