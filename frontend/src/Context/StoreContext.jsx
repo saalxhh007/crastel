@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
   const [products, setProducts] = useState([]);
   const [favoriteItems, setFavoriteItems] = useState([]);
   const [token, setToken] = useState("");
-  const url = "http://localhost:4000";
+  const url = import.meta.env.VITE_API_URL
 
   const getProductById = (category, id) => {
     return products.find(
